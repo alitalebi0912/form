@@ -30,16 +30,12 @@ userform.addEventListener("submit", function (e) {
     console.log(reqest);
     
 
+alert( "hello" + e.target.qstion.value.slice(1,4));
+console.log(e.target.qstion.value.trim());
 
     e.preventDefault()
 
-
-    
 })
-// btn.addEventListener("click" , function(e){
-//         console.log(e);
-//         e.preventDefault()
-// })
 
 
 
